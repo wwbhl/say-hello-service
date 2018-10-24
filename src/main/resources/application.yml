@@ -7,3 +7,5 @@ server:
 spring:
   application:
     name: say-hello-service
+  zipkin:
+    base-url: http://10.0.0.2:9411
